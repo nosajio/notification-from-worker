@@ -1,0 +1,54 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Notify</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style media="screen">
+      body {
+        margin: 0;
+      }
+
+      body, button, input {
+        font: 30px/1.5 'Anonymous Pro', monospace;
+      }
+
+      .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background: rgb(36, 15, 66);
+        color: white;
+      }
+
+      button {
+        border: none;
+        background: #32eee3;
+        color: white;
+        cursor: pointer;
+        padding: 5px 20px;
+      }
+
+      input {
+        width: 90px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="no-way">
+      <h1>Do you even worker bro?</h1>
+      <p>But for real, stop driving around in that old thing and get yourself a <i>new</i> browser.</p>
+    </div>
+    <main class="main" style="display: none;">
+      <p>
+        In <input class="seconds-input" type="number" value="2"/> seconds, <button class="notify-cta">Notify me</button>
+      </p>
+    </main>
+
+    <script src="entry.js"></script>
+  </body>
+</html>
